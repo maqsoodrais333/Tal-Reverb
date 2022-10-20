@@ -1,0 +1,175 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.searchbar{
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.searchbar form{
+    display: flex;
+    justify-content: center;
+}
+#searchbar{
+    width: 30%;
+    padding: 1% 2%;
+    border-bottom: solid white 2px;
+    background-color: transparent;
+    color: white;
+    outline: none;
+}
+#searchbar::placeholder{
+    color: white;
+}
+
+
+.main1{
+    background-color: rgb(65, 65, 65);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main1head{
+    display: flex;
+    justify-content: center;
+}
+.main1head h1{
+    color: white;
+    font-size: 210%;
+    font-weight: bold;
+}
+.main1head h1 span{
+    color: rgb(238, 132, 11);
+}
+.main1para{
+    display: flex;
+    justify-content: center;
+}
+.main1para p{
+    text-align: center;
+    color: white;
+}
+.main1button{
+    display: flex;
+    justify-content: center;
+}
+.main1button button{
+    padding: 8px 12px;
+    background-color: rgb(238, 132, 11);
+    border-radius: 30px;
+    color: white;
+}
+
+
+.main2{
+    background-color: rgb(255, 255, 255);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main2head{
+    display: flex;
+    justify-content: flex-start;    
+}
+.main2head h1{
+    color: rgb(0, 0, 0);
+    font-size: 200%;
+    font-weight: bold;
+    border-bottom: rgb(238, 132, 11) 2px solid;
+    margin-left: 8%;
+}
+.main2para{
+    display: flex;
+    justify-content: flex-start;
+}
+.main2para p{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-left: 8%;
+}
+.main2form{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 14%;
+}
+.feedbackform{
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 6px;
+    padding-bottom: 12px;
+    padding-right: 110px;
+    padding-left: 30px;
+    border-radius: 20px;
+}
+.formhead{
+    color: white;
+    font-size: 20px;
+}
+#name{
+    background-color: transparent;
+    border-bottom: white 2px solid;
+    outline: none;
+    color: white;
+}
+#email{
+    background-color: transparent;
+    border-bottom: white 2px solid;
+    outline: none;
+    color: white;
+}
+#feedback{
+    background-color: transparent;
+    border-bottom: solid 2px white;
+    outline: none;
+    color: white;
+}
+.feedbackbutton{
+    background-color: white;
+    text-align: center;
+    padding: 4px 6px;
+}
+
+
+.main3{
+    background-color: gray;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main3head{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.para1{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+}
+.para2{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+}
+
+.main4{
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main4head{
+    color: white;
+    display: inline-block;
+    margin-left: 6%;
+}
+.main4head h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+.main4list{
+    color: white;
+    margin-left: 6%;
+}
